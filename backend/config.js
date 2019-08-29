@@ -1,7 +1,9 @@
 const path = require("path");
 const chalk = require("chalk");
 
-require("dotenv").config({ path: path.resolve(process.cwd(), "roombelt.env") });
+require("dotenv").config({ path: path.resolve(process.cwd(), ".env") });
+
+console.log('config.databaseUrl', config.databaseUrl);
 
 const result = {
   google: {
