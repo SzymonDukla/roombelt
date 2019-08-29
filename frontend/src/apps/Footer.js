@@ -15,11 +15,11 @@ const Footer = styled(props => (
   <div {...props}>
     Roombelt v{process.env.REACT_APP_VERSION}
     {" | "}
-    Copyright © 2019 <FooterLink href={"https://github.com/ziolko"}>Mateusz Zieliński</FooterLink>
+    Copyright © 2019 <FooterLink href={"https://szymondukla.com/?utm_source=roombook&utm_medium=footer"}>Szymon Dukla</FooterLink>
     {" | "}
-    <FooterLink href={"https://docs.roombelt.com/legal/terms-and-conditions"}>Terms and Conditions</FooterLink>
+    <FooterLink href={"https://roombook.com/legal/terms-and-conditions"}>Terms and Conditions</FooterLink>
     {" | "}
-    <FooterLink href={"https://docs.roombelt.com/legal/privacy-policy"}>Privacy policy</FooterLink>
+    <FooterLink href={"https://roombook.com/legal/privacy-policy"}>Privacy policy</FooterLink>
   </div>
 ))`
   color: #9aa0ac;
