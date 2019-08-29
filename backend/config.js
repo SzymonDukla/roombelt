@@ -3,7 +3,7 @@ const chalk = require("chalk");
 
 require("dotenv").config({ path: path.resolve(process.cwd(), ".env") });
 
-console.log('config.databaseUrl', config.databaseUrl);
+console.log('config.databaseUrl', process.env["DATABASE_URL"]);
 
 const result = {
   google: {
