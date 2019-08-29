@@ -4,7 +4,7 @@ RUN mkdir /roombook
 
 WORKDIR /roombook
 
-COPY package.json package-lock.json index.js ./
+COPY package.json package-lock.json index.js .env ./
 COPY backend backend/
 COPY frontend frontend/
 

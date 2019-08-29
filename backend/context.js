@@ -8,7 +8,7 @@ const premiumPlans = require("./services/premium-plans");
 const GoogleCalendar = require("./services/google-calendar");
 const Office365Calendar = require("./services/office365-calendar");
 
-console.log(config.database);
+console.log(config.databaseUrl);
 
 const storage = new Storage(
   new Sequelize(config.databaseUrl, {
