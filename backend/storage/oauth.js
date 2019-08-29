@@ -25,11 +25,11 @@ module.exports = class {
   }
 
   async getByUserId(userId) {
-    return this.Model.findByPk(userId);
+    return await this.Model.findByPk(userId);
   }
 
   async getBySubscriptionPassthrough(subscriptionPassthrough) {
-    return this.Model.findOne({where: {subscriptionPassthrough}});
+    return await this.Model.findOne({ where: { subscriptionPassthrough } });
   }
 
   async createSubscription(userId, subscriptionId, subscriptionPlanId, subscriptionUpdateUrl) {
