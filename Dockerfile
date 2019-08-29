@@ -1,10 +1,10 @@
 FROM node:10.15.1
 
-RUN mkdir /roombelt
+RUN mkdir /roombook
 
-WORKDIR /roombelt
+WORKDIR /roombook
 
-COPY package.json package-lock.json index.js LICENSE.txt README.md ./
+COPY package.json package-lock.json index.js ./
 COPY backend backend/
 COPY frontend frontend/
 
