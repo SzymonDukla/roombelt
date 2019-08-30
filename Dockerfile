@@ -4,11 +4,9 @@ RUN mkdir /roombook
 
 WORKDIR /roombook
 
-COPY package.json package-lock.json index.js .env ./
-COPY backend backend/
-COPY frontend frontend/
+COPY . .
 
-RUN npm install && \
+RUN npm install --silent && \
     npm run build:frontend && \
     npm prune --production
 

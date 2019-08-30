@@ -40,7 +40,7 @@ const Logo = props => (
     }}
   >
     <Icon color={props.color}>r</Icon>
-    {props.withName && <Name>oombelt</Name>}
+    {props.withName && <Name>oomsy</Name>}
   </span>
 );
 

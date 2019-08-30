@@ -5,6 +5,6 @@ services:
     restart: always
     build:
       ./
-    command: "npm start"
+    command: "npx pm2-runtime start ecosystem.config.js"
     ports:
-      - "3000:3000"
+      - "${PORT}:${PORT}"
