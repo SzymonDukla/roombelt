@@ -125,7 +125,7 @@ const EditDeviceModal = ({ isVisible, isSaving, isGoogleAccount, device, calenda
           />
         </ViewWrapper>
         {isGoogleAccount && (
-          <Button link href="https://go.roombelt.com/scMpEB" target="_blank"
+          <Button link href="https://go.roomsy.com/scMpEB" target="_blank"
                   style={{ fontSize: 12, margin: "5px 0 0 0", padding: "5px 3px", textAlign: "right" }}>
             Why is my calendar read-only or absent?
           </Button>

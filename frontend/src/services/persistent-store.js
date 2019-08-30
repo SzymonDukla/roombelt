@@ -1,10 +1,10 @@
 import store from "store";
 
-export const getLanguage = () => store.get("roombelt-language") || "en-US";
-export const setLanguage = value => store.set("roombelt-language", value);
+export const getLanguage = () => store.get("roomsy-language") || "en-US";
+export const setLanguage = value => store.set("roomsy-language", value);
 
-export const getFontSize = () => store.get("roombelt-font-size") || 1;
-export const setFontSize = value => store.set("roombelt-font-size", value);
+export const getFontSize = () => store.get("roomsy-font-size") || 1;
+export const setFontSize = value => store.set("roomsy-font-size", value);
 
-export const getIsTwoColumnLayout = () => store.get("roombelt-is-two-column-layout") || false;
-export const setIsTwoColumnLayout = value => store.set("roombelt-is-two-column-layout", value);
+export const getIsTwoColumnLayout = () => store.get("roomsy-is-two-column-layout") || false;
+export const setIsTwoColumnLayout = value => store.set("roomsy-is-two-column-layout", value);

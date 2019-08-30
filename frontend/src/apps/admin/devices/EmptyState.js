@@ -33,7 +33,7 @@ const EmptyState = props => (
       <Text block>Once you connect a device it will appear here.</Text>
     </p>
     <p>
-      <Button link href="https://docs.roombelt.com" target="_blank">
+      <Button link href="https://docs.roomsy.com" target="_blank">
         Get help
       </Button>
       <Button primary onClick={props.onConnectDeviceClick}>

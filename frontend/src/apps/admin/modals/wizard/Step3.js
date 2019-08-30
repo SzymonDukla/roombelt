@@ -45,7 +45,7 @@ const Content = ({ isDashboard, isGoogleAccount, calendars, calendarId, onSetCal
       />
       {isGoogleAccount && (
         <Button link
-                href="https://go.roombelt.com/scMpEB"
+                href="https://go.roomsy.com/scMpEB"
                 target="_blank"
                 tabIndex={isCurrentStep ? 0 : -1}
                 style={{ padding: "5px 3px" }}>

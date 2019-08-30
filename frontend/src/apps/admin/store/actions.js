@@ -221,7 +221,7 @@ export const monetizationActions = {
       dispatch(monetizationActions.closeCancelSubscriptionDialog());
       dispatch(monetizationActions.$waitUntilSubscriptionPlanIdChanges(currentSubscriptionPlan));
     } catch (error) {
-      alert("Unable to cancel subscription. Please contact Roombelt support.");
+      alert("Unable to cancel subscription. Please contact Roomsy support.");
     }
   },
 
@@ -236,7 +236,7 @@ export const monetizationActions = {
 
         dispatch(monetizationActions.$waitUntilSubscriptionPlanIdChanges(currentSubscriptionPlan));
       } catch (error) {
-        alert("Unable to change subscription plan. Please contact Roombelt support.");
+        alert("Unable to change subscription plan. Please contact Roomsy support.");
       }
     }
   },

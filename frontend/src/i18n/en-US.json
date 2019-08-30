@@ -48,7 +48,7 @@
     "refresh-page": "Refresh page",
     "device-disconnected-title": "Device disconnected",
     "device-disconnected-message": "This device has been disconnected in admin panel. Do you want to connect it again?",
-    "subscription-cancelled": "Roombelt subscription has been cancelled"
+    "subscription-cancelled": "Roomsy subscription has been cancelled"
   },
   "dashboard": {
     "page-title": "Conference rooms",

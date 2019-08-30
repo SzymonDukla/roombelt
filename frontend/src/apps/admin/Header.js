@@ -42,7 +42,7 @@ const Header = props => {
           {props.userName}
         </Text>
         <Text block xsmall muted>
-          {props.currentSubscriptionPlan && `Roombelt ${props.currentSubscriptionPlan.name}`}
+          {props.currentSubscriptionPlan && `Roomsy ${props.currentSubscriptionPlan.name}`}
           {!props.currentSubscriptionPlan && `Free trial - ${props.daysOfTrialLeft} days left`}
         </Text>
       </div>
@@ -51,7 +51,7 @@ const Header = props => {
 
   return (
     <Wrapper>
-      <a href="https://roombelt.com" style={{ textDecoration: "none" }}>
+      <a href="https://roomsy.com" style={{ textDecoration: "none" }}>
         <Logo size={24} withName/>
       </a>
 
@@ -59,7 +59,7 @@ const Header = props => {
         <DropdownMenuItem onClick={props.openChoosePlanDialog}>
           Subscription settings
         </DropdownMenuItem>
-        <DropdownMenuItem as="a" href="https://docs.roombelt.com">Help</DropdownMenuItem>
+        <DropdownMenuItem as="a" href="https://docs.roomsy.com">Help</DropdownMenuItem>
         <DropdownMenuItem as="a" href="/api/admin/logout">Log out</DropdownMenuItem>
       </DropdownMenu>
     </Wrapper>

@@ -12,10 +12,10 @@ import { monetizationActions } from "../store/actions";
 const ChoosePlanDialog = ({ isOpen, isOnPaidPlan, daysSinceEvaluationStarted, close, continueEvaluation, buyLicense }) => {
   if (isOnPaidPlan) {
     return (
-      <BlueModal visible={isOpen} footer={<Button onClick={close} primary>Close</Button>} title="Roombelt license">
+      <BlueModal visible={isOpen} footer={<Button onClick={close} primary>Close</Button>} title="Roomsy license">
         <p>
           You are on a paid subscription plan.
-          Reach the <Button link style={{ padding: 0 }} href="mailto: mateusz@roombelt.com">support team</Button> if you
+          Reach the <Button link style={{ padding: 0 }} href="mailto: mateusz@roomsy.com">support team</Button> if you
           want to modify your subscription.
         </p>
       </BlueModal>
@@ -31,9 +31,9 @@ const ChoosePlanDialog = ({ isOpen, isOnPaidPlan, daysSinceEvaluationStarted, cl
     );
 
     return (
-      <BlueModal visible={isOpen} footer={footer} title="Roombelt license">
+      <BlueModal visible={isOpen} footer={footer} title="Roomsy license">
         <p>
-          Thanks for giving Roombelt a try! It's a free software but keep
+          Thanks for giving Roomsy a try! It's a free software but keep
           in mind that you can support further development by starting a paid subscription.
         </p>
       </BlueModal>
@@ -48,9 +48,9 @@ const ChoosePlanDialog = ({ isOpen, isOnPaidPlan, daysSinceEvaluationStarted, cl
   );
 
   return (
-    <BlueModal footer={footer} visible={isOpen} title={"Roombelt license"}>
+    <BlueModal footer={footer} visible={isOpen} title={"Roomsy license"}>
       <p>
-        You are using Roombelt for {daysSinceEvaluationStarted} days now.
+        You are using Roomsy for {daysSinceEvaluationStarted} days now.
         It's a free software but keep in mind that you can support further
         development by starting a paid subscription.
       </p>

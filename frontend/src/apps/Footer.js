@@ -11,15 +11,17 @@ const FooterLink = styled.a`
   }
 `;
 
+const year = new Date().getFullYear();
+
 const Footer = styled(props => (
   <div {...props}>
-    Roombelt v{process.env.REACT_APP_VERSION}
+    Roomsy v{process.env.REACT_APP_VERSION}
     {" | "}
-    Copyright © 2019 <FooterLink href={"https://github.com/ziolko"}>Mateusz Zieliński</FooterLink>
+    Copyright © {year} <FooterLink target={"_blank"} href={"https://www.amaranthapp.com?utm_source=roomsy&utm_medium=footer-link"}>Amaranth</FooterLink>
     {" | "}
-    <FooterLink href={"https://docs.roombelt.com/legal/terms-and-conditions"}>Terms and Conditions</FooterLink>
+    <FooterLink href={"https://roomsy.com/legal/terms-and-conditions"}>Terms and Conditions</FooterLink>
     {" | "}
-    <FooterLink href={"https://docs.roombelt.com/legal/privacy-policy"}>Privacy policy</FooterLink>
+    <FooterLink href={"https://roomsy.com/legal/privacy-policy"}>Privacy policy</FooterLink>
   </div>
 ))`
   color: #9aa0ac;

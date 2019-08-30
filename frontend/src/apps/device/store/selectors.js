@@ -105,7 +105,7 @@ export const minutesLeftForCheckInSelector = createSelector(
     }
 
     // Don't remove meetings 2 minutes after `minutesForCheckIn`
-    // This is to avoid removing meetings in-progress after Roombelt renews connection to the server
+    // This is to avoid removing meetings in-progress after Roomsy renews connection to the server
     const timeFromStartInMinutes = (currentTimestamp - meeting.startTimestamp) / 1000 / 60;
     if (timeFromStartInMinutes >= minutesForCheckIn + 2) {
       return null;

@@ -45,7 +45,7 @@ const Content = ({ connectionCode, connectionError, onChangeConnectionCode, onSu
       />
       <Button link
               tabIndex={isCurrentStep ? 0 : -1}
-              href="https://go.roombelt.com/UgIpHu"
+              href="https://go.roomsy.com/UgIpHu"
               target="_blank"
               style={{ padding: "5px 3px", fontSize: 20 }}>
         How to get this code?

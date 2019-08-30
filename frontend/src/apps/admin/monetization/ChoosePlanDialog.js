@@ -118,7 +118,7 @@ const ChoosePlanDialog = ({ isOpen, connectedDevices, daysOfTrialLeft, subscript
   const needsUpgradeInfo = `You connected more devices than allowed in your current plan. Change the subscription plan below.`;
 
   return (
-    <BlueModal footer={showFooter ? footer : null} visible={isOpen} wide={true} title={"Roombelt subscription"}>
+    <BlueModal footer={showFooter ? footer : null} visible={isOpen} wide={true} title={"Roomsy subscription"}>
       <p>
         {!subscriptionPlan && isTrialActive && trialInfo}
         {!subscriptionPlan && !isTrialActive && endOfTrialInfo}
